@@ -3,14 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutcomponentComponent } from './aboutcomponent/aboutcomponent.component';
+import { BlogcomponentComponent } from './blogcomponent/blogcomponent.component';
+import { ContactcomponentComponent } from './contactcomponent/contactcomponent.component';
+import { HomecomponentComponent } from './homecomponent/homecomponent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    AboutcomponentComponent,
+    BlogcomponentComponent,
+    ContactcomponentComponent,
+    HomecomponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

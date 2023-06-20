@@ -1,0 +1,81 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1400px !important;
+}
+#navbarNav {
+	display: inline-block !important;
+	width: 100%;
+	text-align: right;
+}
+#navbarNav .navbar-nav {
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+#navbarNav .navbar-nav li {
+	display: inline-block;
+	width: auto;
+	margin: 0 0 0 30px;
+}
+#navbarNav .navbar-nav li a {
+	color: #666;
+	font-size: 19px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.nav-bar {
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+	background-color: transparent !important;
+}
+.navbar-brand img {
+	width: 141px;
+}
+.dropdown-menu.show ul {
+	padding: 0;
+	width: 100%;
+	text-align: left;
+}
+.dropdown-menu.show ul li {
+	margin: 0 !important;
+	width: 100% !important;
+}
+.dropdown-menu.show ul li a {
+	border-bottom: 1px solid #dcdcdc;
+	width: 100% !important;
+	display: inline-block;
+	font-size: 14px !important;
+	color: #666 !important;
+	padding: 7px 10px;
+}
+.dropdown-menu.show ul li:last-child a {
+	border: none;
+}
+.dropdown-menu.show {
+	padding: 0 0;
+}
+#dropdownBasic1 {
+	background-color: #14223D;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+}
+.banner-saction {
+	display: inline-block;
+	width: 100%;
+	background-image: url('/assets/images/banner.jpg');
+	padding: 20rem 0;
+	text-align: right;
+	background-size: cover;
+	background-position: 100%;
+}
+.banner-saction h2 {
+	display: inline-block;
+	width: 100%;
+	color: #14223D;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
